@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>javascript语法构成 关键字 保留字 变量</title>
+</head>
+<body>
+<p>
+    语法构成  变量 函数名 操作符 都区分大小写
+    区分大小写的 变量标识符  text 与Text
+    所谓标识符 就是指 变量 函数 属性的名字
+    标识符开头 第一个字符 必须是 字母 下划线 美元符号； 不能以感叹号 数字开头
+    其他部分组成 字母数字 下划线 美元符号
+    不能把关键字 保留字 true false null（对象空指针 空引用）作为标识符
+
+    script中注释 单行注释 两个斜杠 注释  说明
+    多行块级注释
+</p>
+<p>
+字面量 直接量 常量
+    程序中直接显示出来的量
+    100 数字字面量
+    '丁亚男' 字符串字面量
+    false
+    true  布尔值字面量
+    /js/gi 正则表达式的字面量
+    null 空对象引用 对象字面量 它是对象的值
+    在ECMA3 后 对对象字面量 数组字面量支持
+    对象字面量  使用 大括号 冒号 加 逗号分割 {x:12,y:13} 对象字面量表达式
+    数组字面量表达式 使用中括号 加 逗号分割[1,2,3]
+</p>
+<p>
+    javascript 中的关键字 与 保留字
+    关键字 程序中已经开始使用的字符
+    break else new case finally return
+    catch for switch  var void while continue
+    function this with default if throw
+    delete in try do instanceof typeof
+</p>
+<p>
+    变量
+    声名变量 造出了盒子 var box
+    但是它是一个容器 没有值 需要变量初始化 对变量赋值
+    var box = 100;
+    打印出容器的值  编程的含义 输出变量的值
+    var box = 100；
+    alert(box);
+
+    如果box 不初始化 alert 弹出的是 undefined
+    这里需要注意 如果定义了变量但是没有初始化
+    系统会自动给它初始化一个默认的值 系统给它一个特殊的值 但是该变量是存在的 只是没有赋值 系统自动赋初值
+    但是如果alert一个未定义的变量 会怎样 会报错
+    typeof  函数 获取 变量的数据类型
+
+    ECMAScript 的变量类型是松散型的
+
+</p>
+<script type="text/javascript" src="js2.js">
+
+
+</script>
+</body>
+</html>

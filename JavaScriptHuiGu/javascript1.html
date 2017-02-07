@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>使用javascript应用程序 第一个js脚本</title>
+</head>
+<body>
+<noscript>
+    本站必须启用javascript
+</noscript>
+<p>第一步创建一张html页面</p>
+<p>script标签解析</p>
+<p>欢迎来到javascript世界</p>
+<p>解析script标签 主要是用于在html页面中插入js的方法
+它主要有以下属性
+    charset 属性 少用
+    defer 属性  延迟javascript 执行 先加载html页面再执行
+    language 属性 开发语言的版本 少用
+    src 属性 多用 连接外部的javascript文件
+    type 属性
+</p>
+<p>
+    在script标签中 使用alert 弹出 script
+</p>
+<p>
+    script标签中 使用src 属性  那么 原来的标签内的代码 就不会执行的
+</p>
+<p>
+    当浏览器禁用javascript时 怎么处理
+    使用 noscript标签
+</p>
+<!--<script type="text/javascript">-->
+    <!--alert('欢迎来到javascript世界');-->
+    <!--alert('</sc'+'ript>');-->
+    <!--//注意外部引用中 使用弹窗 弹出script标签 不需要这么做-->
+<!--</script>-->
+<script type="text/javascript" src="js1.js">
+
+</script>
+</body>
+</html>
